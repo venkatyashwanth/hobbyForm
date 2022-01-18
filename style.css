@@ -1,0 +1,82 @@
+@font-face {
+    font-family: MontReg;
+    src: url(./Montserrat/Montserrat-Regular.ttf);
+}
+
+html{
+    font-size: 10px;
+}
+
+.formSection{
+    margin: auto;
+    width: 40%;
+}
+form{
+    width: 100%;
+}
+legend{
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    border: 1px solid brown;
+    font-size: 1.6rem;
+}
+fieldset{
+    border: 1px solid brown;
+}
+table{
+    margin: auto;
+    border-spacing: 1rem;
+}
+.labelEl{
+    text-align: right;
+    font-size: 1.6rem;
+    font-family: "MontReg";
+}
+
+.labelElBtn{
+    font-size: 1.6rem;
+    font-family: "MontReg";
+}
+
+.addressCl{
+    vertical-align: top;
+}
+.inputBox{
+    border: 1px solid brown;
+    background-color: rgb(238, 216, 145);
+    padding: 5px;
+}
+.inputBox1{
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 1px solid brown;
+    border-right: 1px solid brown;
+    background-color: rgb(238, 216, 145);
+    padding: 5px;
+}
+.selecttxt{
+    color: brown;
+    width: 70%;
+}
+.submitButton{
+    background-color: rgb(238, 216, 145);
+    padding: 5px;
+    border: 1px solid brown;
+    color: brown;
+    width: 40%;
+    font-family: "MontReg";
+    cursor: pointer;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.uploadBtn{
+    border: 1px solid dodgerblue;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}

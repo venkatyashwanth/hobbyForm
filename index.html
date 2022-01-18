@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="formSection">
+        <form action="#0">
+            <fieldset>
+                <legend>This is my form</legend>
+                <table>
+                    <tr>
+                        <td class="labelEl"><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" class="inputBox"></td>
+                    </tr>
+                    <tr>
+                        <td class="labelEl"><label for="pass">Password:</label></td>
+                        <td><input type="password" id="pass" class="inputBox"></td>
+                    </tr>
+                    <tr>
+                        <td class="labelEl"><label for="cpass">Confirm Password:</label></td>
+                        <td><input type="password" id="cpass" class="inputBox"></td>
+                    </tr>
+                    <tr>
+                        <td class="labelEl"><label for="fileUpload">Upload Your Picture:</label></td>
+                        
+                        <td>
+                            <input class="inputBox1" type="text" disabled>
+                            <label for="fileUpload" class="labelElBtn uploadBtn">Browse..</label>
+                            <input type="file" id="fileUpload" accept="image/*">
+                        </td>
+                        
+                        
+                    </tr>
+                    <tr>
+                        <td class="labelEl">Gender:</td>
+                        <td>
+                            <input type="radio" id="genderMale" name="gen" value="Male" class="checkRadioBtn">
+                            <label for="genderMale" class="labelEl">Male</label>
+                            <input type="radio" id="genderFemale" name="gen" value="Female">
+                            <label for="genderFemale" class="labelEl">Female</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="labelEl"><label for="countries">Select Country:</label></td>
+                        <td>
+                            <select id="countries" class="inputBox selecttxt">
+                                <option value="United Kingdom">United Kingdom</option>
+                                <option value="India">India</option>
+                                <option value="Australia">Australia</option>
+                                <option value="Japan">Japan</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="labelEl">Hobby:</td>
+                        <td>
+                            <input type="checkbox" value="cricket" id="cricket">
+                            <label for="cricket" class="labelEl">Cricket</label>
+                            <input type="checkbox" value="football" id="football">
+                            <label for="football" class="labelEl">Football</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="labelEl addressCl"><label for="addressText">Address</label></td>
+                        <td>
+                            <textarea id="addressText" class="inputBox" rows="8" cols="25"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" class="submitButton">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
